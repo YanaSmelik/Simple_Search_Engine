@@ -22,7 +22,7 @@ public class Program {
     }
 
     private boolean performMenuOption(String menuOption, List<String> inputLines) {
-        int optionNumber = -1;
+        int optionNumber;
         try {
             optionNumber = Integer.parseInt(menuOption);
         } catch (Exception e) {
